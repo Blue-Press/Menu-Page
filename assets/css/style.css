@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menuContainer {
+    margin-top: 5%;
+    width: 60%;
+    height: 60vh;
+    border: 1px solid black;
+}
