@@ -6,8 +6,17 @@ body {
 
 
 .menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 5%;
     width: 60%;
     height: 60vh;
     border: 1px solid black;
+}
+
+#menuItem {
+    width: 20%;
+    height: 20%;
+    border: 1px solid orange;
 }

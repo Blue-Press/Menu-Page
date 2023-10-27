@@ -11,19 +11,21 @@ function selectMenu(selection) {
     for (item of sandwichesArray) {
       const menuItem = document.createElement("div");
       menuItem.id = "menuItem";
+      menuItem.className = item;
       menuContainer.appendChild(menuItem).textContent = item;
     }
   } else if (selection === "Platters") {
     for (item of plattersArray) {
       const menuItem = document.createElement("div");
       menuItem.id = "menuItem";
-      menuItem.class = item;
+      menuItem.className = item;
       menuContainer.appendChild(menuItem).textContent = item;
     }
   } else if (selection === "Pancakes & Waffles") {
     for (item of pancakesWafflesArray) {
       const menuItem = document.createElement("div");
       menuItem.id = "menuItem";
+      menuItem.className = item;
       menuContainer.appendChild(menuItem).textContent = item;
     }
   }
