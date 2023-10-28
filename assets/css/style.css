@@ -46,6 +46,12 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+#menuButton:hover {
+    background-color: #C76529;
+    color: #642A1A;
+}
+
+
 .menuContainer {
   display: flex;
   align-items: center;
