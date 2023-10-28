@@ -30,15 +30,22 @@ const titleMap = {
 };
 
 const descriptionMap = {
-  eggSandwich: "The classic Egg Sandwich served with bacon, fresh tomato, onion, lettuce and american cheese.",
-  pancakeSandwich: "Cold cut ham, american cheese and lettuce, sandwiched between two layers of pancakes.",
-  grilledCheese: "The American classic, Grilled Cheese. Now made with mostly real cheese.",
+  eggSandwich:
+    "The classic Egg Sandwich served with bacon, fresh tomato, onion, lettuce and american cheese.",
+  pancakeSandwich:
+    "Cold cut ham, american cheese and lettuce, sandwiched between two layers of pancakes.",
+  grilledCheese:
+    "The American classic, Grilled Cheese. Now made with mostly real cheese.",
   eggPlatter: "Fried eggs, scrambled eggs and sausage.",
-  texmexBreakfast: "Spicy habanero sausage, fried egg, black beans and side of salsa, guacamole and sour cream.",
-  cheesyBeefPlatter: "A colossal stack of beef, covered with melted cheese and fried eggs. Served wih sides of onion rings, veggies and more cheese.",
+  texmexBreakfast:
+    "Spicy habanero sausage, fried egg, black beans and side of salsa, guacamole and sour cream.",
+  cheesyBeefPlatter:
+    "A colossal stack of beef, covered with melted cheese and fried eggs. Served wih sides of onion rings, veggies and more cheese.",
   pancakeStack: "A stack of fluffy buttered pancakes, served with syrup.",
-  waffleHouse: "A house made of waffles and covered in powdered sugar, can you guess which furniture is edible?",
-  syrupBoat: "A boat of waffles floating in a bowl of syrup, great for dunking!",
+  waffleHouse:
+    "A house made of waffles and covered in powdered sugar, can you guess which furniture is edible?",
+  syrupBoat:
+    "A boat of waffles floating in a bowl of syrup, great for dunking!",
 };
 
 function selectMenu(selection) {
@@ -59,14 +66,14 @@ function selectMenu(selection) {
 
       const itemTitle = document.createElement("p");
       itemTitle.textContent = titleMap[item];
-      itemTitle.id = 'itemTitle';
+      itemTitle.id = "itemTitle";
 
       const menuItem = document.createElement("div");
       menuItem.id = "menuItem";
       menuItem.className = item;
       menuItem.style.backgroundImage = `url(${imageMap[item]})`;
       menuItem.style.backgroundSize = "contain";
-      menuItem.style.borderRadius = '20px';
+      menuItem.style.borderRadius = "20px";
 
       const itemDescription = document.createElement("p");
       itemDescription.textContent = descriptionMap[item];
@@ -75,7 +82,6 @@ function selectMenu(selection) {
       menuItemContainer.appendChild(menuItem);
       menuItemContainer.appendChild(itemDescription);
       menuContainer.appendChild(menuItemContainer);
-
     });
   }
 }
