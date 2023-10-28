@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
 
 body {
   display: flex;
@@ -21,7 +20,7 @@ body {
 
 .pageHeader {
   color: #e8b956;
-  font-family: 'Potta One', cursive;
+  font-family: "Potta One", cursive;
   font-size: 300%;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -42,15 +41,14 @@ body {
   background-color: #642a1a;
   color: #e8b956;
   font-size: large;
-  font-family: 'Kotta One';
+  font-family: "Kotta One";
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #menuButton:hover {
-    background-color: #C76529;
-    color: #642A1A;
+  background-color: #c76529;
+  color: #642a1a;
 }
-
 
 .menuContainer {
   display: flex;
@@ -62,7 +60,7 @@ body {
   flex-wrap: wrap;
   background-color: #642a1a;
   color: #e8b956;
-  font-family: 'Kotta One';
+  font-family: "Kotta One";
   font-size: large;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -93,7 +91,7 @@ body {
 }
 
 #itemTitle {
-    font-size: larger;
+  font-size: larger;
 }
 
 #menuItem {
