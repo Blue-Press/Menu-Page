@@ -59,12 +59,14 @@ function selectMenu(selection) {
 
       const itemTitle = document.createElement("p");
       itemTitle.textContent = titleMap[item];
+      itemTitle.id = 'itemTitle';
 
       const menuItem = document.createElement("div");
       menuItem.id = "menuItem";
       menuItem.className = item;
       menuItem.style.backgroundImage = `url(${imageMap[item]})`;
       menuItem.style.backgroundSize = "contain";
+      menuItem.style.borderRadius = '20px';
 
       const itemDescription = document.createElement("p");
       itemDescription.textContent = descriptionMap[item];

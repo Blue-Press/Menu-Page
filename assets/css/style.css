@@ -1,45 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #A16744;
+  background-color: #a16744;
 }
 
 .contentContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 97vh;
+}
+
+.pageHeader {
+  color: #e8b956;
+  font-family: 'Potta One', cursive;
+  font-size: 300%;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menuButtonBar {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+#menuButton {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200%;
+  width: 300%;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #642a1a;
+  color: #e8b956;
+  font-size: large;
+  font-family: 'Kotta One';
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .menuContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    width: 60%;
-    flex-wrap: wrap;
-    background-color: #E8B956;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 60%;
+  height: 50%;
+  flex-wrap: wrap;
+  background-color: #642a1a;
+  color: #e8b956;
+  font-family: 'Kotta One';
+  font-size: large;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .menuRowContainer {
-  display: inline-block;
   width: 100%;
   height: 100%;
-  border: 1px solid black;
+  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  border: 0;
   flex-wrap: wrap;
   text-align: center;
-}
-
-.menuRowContainer {
-    vertical-align: top;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  width: 100%;
 }
 
 #menuItemContainer {
@@ -47,24 +79,24 @@ body {
   vertical-align: top;
   text-align: center;
   text-wrap: wrap;
-  
 }
 
 #menuItemContainer p {
-    max-width: 200px;
-    text-align: center;
+  max-width: 200px;
+  text-align: center;
 }
-#menuItem {
-    width: 200px;
-    height: 200px; 
-    border: 1px solid orange;
-    background-repeat: no-repeat;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
 
-  
+#itemTitle {
+    font-size: larger;
+}
+
+#menuItem {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
